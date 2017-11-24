@@ -1,0 +1,80 @@
+#left-notswap-menu{
+	width: 170px;
+	height: 100%;
+	background-color: #fff;
+
+}
+
+#left-notswap-menu ul{
+	margin: 0px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	padding: 1px;
+	list-style-type: none;
+	background-color: #9ca4ae;
+}
+#left-notswap-menu li{
+	border-bottom: 0px;
+	padding: 1px;
+	margin: 0;
+}
+
+#left-notswap-menu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	
+}
+#left-notswap-menu a{
+	font-weight: bold;
+}
+#left-notswap-menu .o_free_l a{
+	padding: 1px;
+	padding-left: 17px;
+	list-style: none;
+	background-color: #ad0000;
+	text-indent: 0px;
+	display: block;
+	text-decoration: none;
+	color: #FFf;
+	font-size: 10pt;
+		border-bottom: 1px solid #fff;
+}
+#left-notswap-menu .o_free2_l a{
+	padding:1px;
+		padding-left: 12px;
+	list-style: none;
+	text-indent: 0px;
+	text-decoration: none;
+	text-transform: none;
+	font-size: 10pt;
+	color: #fff;
+		background-color: #9ca4ae;
+}
+#left-notswap-menu .o_free3_l a{
+	padding:1px;
+		margin-left: 12px;
+		padding-left: 12px;
+	list-style: none;
+	text-indent: 0px;
+	text-decoration: none;
+	text-transform: none;
+	font-size: 10pt;
+}
+#left-notswap-menu a:hover{
+background-image: url(l_m.gif);
+background-repeat: no-repeat;
+background-position: left;
+}
+#left-notswap-menu .o_free2_l a:hover, .o_free3_l a:hover{
+background-image: url(l_m.gif);
+}
+
+#left-notswap-menu a#left-current{
+background-image: url(l_m.gif);
+background-repeat: no-repeat;
+background-position: left;}
+
+#left-notswap-menu .o_free2_l a#left-current, .o_free3_l a#left-current{
+background-image: url(l_m.gif);
+}

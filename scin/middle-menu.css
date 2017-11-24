@@ -1,0 +1,132 @@
+#menu_middle{
+	vertical-align: Top;
+	color: White;
+	padding:0;
+	margin: 0;
+	background-color: #ad0000;
+	padding-left: 170px;
+}
+
+#middle-menu-structure{
+	padding:0;
+	margin: 0;
+}
+
+#middle-menu-structure ul{
+	padding:0;
+	margin: 0;
+	margin-left: 4px;
+	margin-right: 4px;
+	list-style:none;
+	float:left;
+	/*width: 180px;*/
+
+}
+
+#middle-menu-structure li{
+	padding:0;
+	margin: 0;
+	position: relative;
+	list-style: none;
+
+}
+
+#middle-menu-structure li:hover{
+cursor:pointer;
+z-index:100;
+}
+
+
+#middle-menu-structure h5{
+	padding:0;
+	margin: 0;
+}
+
+#middle-menu-structure h5 a{
+
+ background-color: #ad0000;
+font:10pt arial,helvetica,sans-serif;
+display:block;
+border-width:0px;
+margin:0;
+padding: 5px;
+padding-left: 10px;
+padding-right: 10px;
+font-weight: bold;
+color: #fff;
+text-decoration: none;
+ white-space: nowrap;
+border-left: 1px solid #fff;
+border-right: 1px solid #fff;
+
+ }
+
+
+#middle-menu-structure h5 a:hover{
+background: #9CA4AE;
+}
+
+#middle-menu-structure ul ul{
+	position:absolute;
+	z-index:500;
+	top:24px;
+	display:none;
+	padding:0 0 0 0;
+	margin: 0 0 0 0;
+	width: 240px;
+	border:2px solid #fff;
+}
+
+#middle-menu-structure li:hover ul ul,
+#middle-menu-structure li li:hover ul ul,
+#middle-menu-structure li li li:hover ul ul,
+#middle-menu-structure li li li li:hover ul ul
+{display:none;}
+
+#middle-menu-structure li:hover ul,
+#middle-menu-structure li li:hover ul,
+#middle-menu-structure li li li:hover ul,
+#middle-menu-structure li li li li:hover ul
+{display:block;}
+
+
+#middle-menu-structure ul ul ul{
+top:-2px;
+left:100%;
+	width: 180px;
+
+}
+
+#middle-menu-structure a.x, #middle-menu-structure a.x:visited{
+font:10pt arial,helvetica,sans-serif;
+display:block;
+border-width:1px;
+border-style:solid;
+border-color: White;
+margin:0;
+padding: 5px;
+background-color: #ad0000;
+color: White;
+text-decoration: none;
+font-weight: bold;
+ text-align: right;
+
+}
+
+#middle-menu-structure a.x:hover{
+background: #9CA4AE;
+}
+
+/* Fix IE. Hide from IE Mac \*/
+* html #middle-menu-structure ul li { float: left; height: 1%; }
+* html #middle-menu-structure ul li a { height: 1%; }
+* html #middle-menu-structure ul.one{width: 10px;}
+
+
+/* End */
+#middle-menu-structure a#middle-current{
+background: #9CA4AE;
+}
+#middle-menu-structure a.x#middle-current{
+background: #9CA4AE;
+}
